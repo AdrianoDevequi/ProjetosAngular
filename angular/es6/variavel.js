@@ -1,5 +1,9 @@
-var serie = 'Friends';
+const serie = 'The Walking Dead';
 
-if(true){s
-    serie = 'Game of trones';
+
+
+if(true){
+    let serie = 'Game of trones';
+    console.log(serie)
 }
+console.log(serie)
