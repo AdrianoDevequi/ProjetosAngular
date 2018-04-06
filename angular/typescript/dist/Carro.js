@@ -9,11 +9,8 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-}
 Object.defineProperty(exports, "__esModule", { value: true });
-var Veiculo_1 = __importDefault(require("./Veiculo"));
+var Veiculo_1 = require("./Veiculo");
 var Carro = /** @class */ (function (_super) {
     __extends(Carro, _super);
     function Carro(modelo, numeroDePortas) {
